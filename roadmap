@@ -1,0 +1,29 @@
+ROADMAP
+
+##Tarefas base
+o Implementar um formulário de ficha preenchível
+o Modelar a base de dados da ficha
+o Implementar uma geração aleatória de personagens com base em nível e
+  classe
+o Implementar a geração de PDF com base no formulário nos moldes da ficha de
+  D&D 5ed.
+
+##Regras de negócio que podem ser implementadas na ficha de personagem
+o Implementar cálculo de bônus de atributos
+o Implementar o cálculo do bônus de proficiência com base no nível total
+  do personagem
+o Implementar a rolagem de atributos (opcional)
+o Implementar a rolagem de dados de vida (opcional)
+
+
+##Regras de negócio que envolvem base de dados
+o Implementar seleção de raça e auto-compleição de ajustes de atributos,
+  proficiências, e características de raça (e.g. bônus de movimento, visão
+  no escuro, magias de raça, etc.)
+o Implementar seleção de background e auto-compleição de características
+  oriundas do background (proficiências, itens iniciais, trinkets, etc.)
+o Implementar seleção de classe e nível, auto-completando as proficiências em
+  atributos e habilitando a escolha de proficiências em perícias disponíveis
+  até um determinado número.
+o Implementar a escolha de magias de acordo com o nível do personagem em uma ou
+  mais classes selecionadas
